@@ -1,0 +1,51 @@
+{
+  "name": "e-com-api",
+  "version": "1.0.0",
+  "description": "This is The Fully Backend of We Tex e-commerce software. All Right reserved by DesignBrigad Limited.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tasajjad/weTexAPI.git"
+  },
+  "keywords": [
+    "DesignBrigad",
+    "WeTex"
+  ],
+  "author": "Sajjad Ahmed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tasajjad/weTexApi/issues"
+  },
+  "homepage": "https://github.com/tasajjad/weTexApi#readme",
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cloudinary": "^1.27.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "date-fns": "^2.24.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "express-validator": "^6.12.1",
+    "joi": "^17.4.2",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.0.7",
+    "multer": "^1.4.3",
+    "passport": "^0.4.1",
+    "passport-facebook": "^3.0.0",
+    "passport-google-oauth20": "^2.0.0",
+    "pdfkit": "^0.12.3",
+    "uuid": "^8.3.2"
+  },
+  "proxy": "http:localhost:3001"
+}
