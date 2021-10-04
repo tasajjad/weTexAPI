@@ -18,6 +18,6 @@ const schema = new Schema({
         estd: String
     },
     password: String
-})
+}, { timestamps: true })
 
 module.exports = Admin = model('Admin', schema)

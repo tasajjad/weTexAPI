@@ -25,12 +25,15 @@ const notFound = require('./errors/notFound')
 const adminRouter = require('./routers/adminRouter')
 const userRouter = require('./routers/userRouter');
 const ohtersAdmin = require('./routers/othersAdminRouter')
-
+const billing = require('./routers/billingRouter')
+const category = require('./routers/categoryRouter')
 
 
 app.use('/api', adminRouter)
 app.use('/api', userRouter)
 app.use('/api', ohtersAdmin)
+app.use('/api', billing)
+app.use('/api', category)
 
 
 
